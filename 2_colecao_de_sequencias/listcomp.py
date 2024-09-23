@@ -28,4 +28,6 @@ sizes = ["S", "M", "L"]
 
 tshirts = [(color, size) for color in colors for size in sizes]
 
+print("Colors: ", colors)
+print("Sizes: ", sizes)
 print("(C X S): ", tshirts)
